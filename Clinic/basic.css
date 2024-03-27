@@ -1,0 +1,14 @@
+﻿body {
+    direction:ltr;
+    background-color:cornsilk;
+}
+button{
+    background-color:lightcyan;
+}
+#add_patient{
+    border:3px black solid;
+    
+}
+input{
+    margin-top:3px;
+}
