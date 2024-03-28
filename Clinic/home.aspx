@@ -11,11 +11,9 @@
     <form id="form1" runat="server">
         <div>
             <h1 name="head">קופת חולים</h1>
-            <button name="add">Add</button>
-            <button name="update">Update</button>
-            <button name="delete">Delete</button>
-            <button name="reset">reset</button>
-
+            <button type="submit" name="action" value="tryAdd">Add</button>
+          
+            <button type="submit" name="action" value="reset">Reset</button>
             <br />
             <div id="add_patient">
             <%=inputsAdd%>
